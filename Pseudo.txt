@@ -1,0 +1,19 @@
+Set Team scores, if new game, set to ZERO each
+Select Genre (All, Fantasy, Comedy, Sci-Fi, Adventure, Action, Suspense, Family, Crime, ect..)
+Stuff all movies containing selected genre into an array.
+Set new empty array to collect all movies that are listed during round.
+Start timer at 60 seconds, screen color to green
+Bring up first movie (randomly selected from array)
+Push this movie into new array and remove from listed movies array.
+Show 3 buttons (skip, next, end round).
+repeat lines 6, 7, 8 until 60 second timer runs out.
+At 20 seconds remaining, change screen color to yellow, timer sound faster
+At 7 seconds remaining, change screen color to red, timer sound even faster!
+60 seconds is up, change screen to ROUND END, stop selecting from array
+Display all movies in new array for scoring purposes.
+Insert selected scores into appropriate team score column.
+next round
+start over, setting team to other team
+
+settings:
+timer sound on/off
